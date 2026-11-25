@@ -26,7 +26,6 @@ How to play:
 3. Click *next* to go to the next question.
 4. Get at least 5 out of 7 correct to win.
 
-## Planning
 
 ## Backlog
 

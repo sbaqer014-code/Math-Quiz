@@ -94,7 +94,7 @@ function loadQuestion() {
   feedbackEl.className = 'feedback';
   nextBtn.setAttribute('hidden', true);
 
-  // Put the right answer with the wrong ones, then mix them up
+// right and wrong answer
   const choices = [question.answer, ...question.wrongAnswers];
   choices.sort(() => Math.random() - 0.5);
 
@@ -116,8 +116,7 @@ function handleChoice(evt) {
   checkAnswer(evt.target.textContent);
 }
 
-// Check the answer, color the buttons and show the Next button.
-// selectedAnswer is null when the time runs out.
+// selected Answer is null when the time runs out.
 function checkAnswer(selectedAnswer) {
   stopTimer();
 
@@ -143,7 +142,7 @@ function checkAnswer(selectedAnswer) {
   isCorrect: isCorrect,}
 );
 
-  // Lock all buttons: green for the right answer, red for the wrong pick
+  // buttons: green for the right answer, red for the wrong answer
   const choiceBtns = choicesEl.querySelectorAll('.choice');
   choiceBtns.forEach((choiceBtn) => {
     choiceBtn.disabled = true;

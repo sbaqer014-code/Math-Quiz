@@ -18,7 +18,7 @@ I chose math quiz because I think most of you don't really like math. So, I thou
 
 ## Getting started
 
-*Play the game*: [Math Quiz](https://sbaqer014-code.github.io/math-quiz/)
+*Play the game*: [Math Quiz](http://127.0.0.1:5500/index.html)
 
 How to play: 
 1. Click *Start game*.
